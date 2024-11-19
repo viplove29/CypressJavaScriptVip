@@ -60,3 +60,46 @@ Once you open the package.json in the cypress folder, you will see an entry for 
 
 Verifying Installation of Cypress
 
+
+Updating Cypress
+Use one of the commands below to launch the Cypress application.
+
+$ ./node_modules/.bin/cypress open
+
+Or
+
+$(npm bin)/cypress open
+
+#Using npx, note: npm > v5.2
+
+$npx cypress open
+
+Updating Cypress
+
+You can see the notice for the updated version (10.8.0), the link for the changelog, and the current version (8.4.1) at the bottom. You can review the changelog for the most recent version if you are not receiving notifications. To see every version, click Changelog.
+
+To view the change logs, click Changelog at the bottom of the runner or go to this link. You can see the features, performance fixes, and bug fixes here, among other things.
+
+The most recent version with the release date will be at the head of the list. You can quickly access the relevant version by clicking on the links on this page’s right side under the section.
+
+ Update Cypress using NPM
+
+npm install --save-dev cypress@10.8.0
+
+Additionally, you can switch the Cypress version to the most recent upgraded version in the package.json
+
+Setting up your first Cypress test
+Now that you have Cypress installed, you can run it by
+
+npx cypress open
+
+Select Cypress Testing type
+
+To start, click the “E2E Testing” button on the left.
+Next, Cypress will tell you about the different files it will make for you so that everything is set up right for e2e testing. Click on “Continue”.
+Next, you’ll see a screen that says “Choose a Browser.” Depending on which browsers you have on your computer, you may have different choices.
+Select Browser for Cypress Testing
+
+As you don’t yet have any test files created, Cypress will then launch and prompt you to create your first specification.
+Select “Create a new empty spec”: which could be home.cy.ts.
+
